@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            width: 100%;
+            text-align: center;
+            background-color: rgb(147, 37, 0);
+            color: white;
+            font-size: 25px;
+            font-weight: 100;
+        }
+        .footer {
+            width: 100%;
+            bottom: 0px;
+            text-align: center;
+           background-color: rgb(207, 52, 0);
+            color: white;
+            position: absolute;
+            padding-top: 20px;
+            padding-bottom: 50px;
+           
+        }
+        .menu{
+            background-color: rgb(19, 59, 62);
+            color: rgb(235, 235, 235);
+            margin-top: 10px;
+            overflow: hidden;
+            
+
+        }
+        .menu a{
+            float: left;
+            text-align: center;
+            padding: 5px;
+            text-decoration: none;
+            font-size: 20px;
+            color: aliceblue;
+            
+        }
+        .menu-log{
+            right: auto;
+            float: right;
+        }
+        .logo-text{
+            width:200px;
+            background:#ddd;
+            height:250px;
+            float:center;
+            margin:10px;
+            text-align: center;   
+        }
+        
+         .image {
+            width:200px;
+            padding-right: 10px;
+            padding-left: 5px;
+            background:#ddd;
+            height: 160px;
+            float:left;
+            margin-bottom: 10px;
+            text-align:center;
+}
+         .shape{
+            width: 500px;;
+            padding:10px;
+            background:rgb(221, 221, 221);
+            height:130px;
+            float:right;
+            margin:10px;
+            text-align: center;
+        
+            
+        } 
+    </style>
+</head>
+
+
+
+<body>
+    <header>
+        <div class="header">
+            HEADER
+        </div>
+    </header>
+    <nav class="menu">
+        <a href="home">home</a>
+        <a href="contact">contact</a>
+        <a href="about">about</a>
+        <a href="help">help</a>
+        <div class="menu-log">
+            <a href="login">LOGIN</a>
+        </div>
+    </nav>
+    <div class="logo-text">LOGO</div>
+    <div class="image">IMAGE</div>
+    <div class="shape">SHAPE</div>
+    
+    <footer>
+        <div class="footer">
+            FOOTER
+        </div>
+    </footer>
+</body>
+
+</html>
