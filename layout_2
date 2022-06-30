@@ -113,6 +113,7 @@
         <a href="#home">HOME</a>
         <a href="#news">NEWS</a>
         <a href="#notification">NOTIFICATIONS</a>
+        <a href="https://github.com/khushi5422"> CONTACT ME</a>
         <div class="menu-log">
             <a href="#login">LOGIN</a>
         </div>
@@ -126,6 +127,7 @@
 
     <!-- Footer Section -->
     <footer>Footer Section</footer>
+    
 </body>
 
 </html>
