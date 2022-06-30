@@ -5,107 +5,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LAYOUT</title>
     <style>
-        .header {
-            width: 100%;
-            text-align: center;
-            background-color: rgb(147, 37, 0);
-            color: white;
-            font-size: 25px;
-            font-weight: 100;
+        .head1 {
+            font-size: 40px;
+            color: #006e99;
+            font-weight: bold;
+            background-color: aquamarine;
         }
-        .footer {
-            width: 100%;
-            bottom: 0px;
-            text-align: center;
-           background-color: rgb(207, 52, 0);
-            color: white;
-            position: absolute;
-            padding-top: 20px;
-            padding-bottom: 50px;
-           
-        }
-        .menu{
-            background-color: rgb(19, 59, 62);
-            color: rgb(235, 235, 235);
-            margin-top: 10px;
-            overflow: hidden;
-            
 
+        .head2 {
+            font-size: 17px;
+            margin-left: 10px;
+            margin-bottom: 15px;
         }
-        .menu a{
+
+        body {
+            margin: 0 auto;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .menu {
+            position: sticky;
+            top: 0;
+            background-color: rosybrown;
+            padding: 10px 0px 10px 0px;
+            color: r;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .menu a {
             float: left;
+            color: rebeccapurple;
             text-align: center;
-            padding: 5px;
+            padding: 14px 16px;
             text-decoration: none;
             font-size: 20px;
-            color: aliceblue;
-            
         }
-        .menu-log{
+
+        .menu-log {
             right: auto;
             float: right;
         }
-        .logo-text{
-            width:200px;
-            background:#ddd;
-            height:250px;
-            float:center;
-            margin:10px;
-            text-align: center;   
-        }
-        
-         .image {
-            width:200px;
-            padding-right: 10px;
-            padding-left: 5px;
-            background:#ddd;
-            height: 160px;
-            float:left;
-            margin-bottom: 10px;
-            text-align:center;
-}
-         .shape{
-            width: 500px;;
-            padding:10px;
-            background:rgb(221, 221, 221);
-            height:130px;
-            float:right;
-            margin:10px;
+
+        footer {
+            width: 100%;
+            bottom: 0px;
+            background-color: #000;
+            color: #fff;
+            position: absolute;
+            padding-top: 20px;
+            padding-bottom: 50px;
             text-align: center;
-        
-            
-        } 
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+
+
+        .logo {
+            width: 33.33%;
+            padding: 10px;
+            background: #ddd;
+            height: 150px;
+            float: left;
+            margin: 10px;
+            margin-left: 100px;
+            text-align: center;
+        }
+
+        .text {
+            width: 33.33%;
+            padding: 10px;
+            background: #ddd;
+            height: 150px;
+            float: left;
+            margin-bottom: 20px;
+            margin-left: 100px;
+            text-align: center;
+        }
+
+        .image {
+            width: 33.33%;
+            padding: 10px;
+            background: #ddd;
+            height: 330px;
+            float: right;
+            margin: 10px;
+            margin-right: 100px;
+            text-align: center;
+        }
+
     </style>
 </head>
 
-
-
 <body>
+    <!-- Header Section -->
     <header>
-        <div class="header">
-            HEADER
-        </div>
+        <div class="head1">Hello Header</div>
+        <div class="head2">it's my first</div>
     </header>
+
+    <!-- Menu Navigation Bar -->
     <nav class="menu">
-        <a href="home">home</a>
-        <a href="contact">contact</a>
-        <a href="about">about</a>
-        <a href="help">help</a>
+        <a href="#home">HOME</a>
+        <a href="#news">NEWS</a>
+        <a href="#notification">NOTIFICATIONS</a>
         <div class="menu-log">
-            <a href="login">LOGIN</a>
+            <a href="#login">LOGIN</a>
         </div>
     </nav>
-    <div class="logo-text">LOGO</div>
-    <div class="image">IMAGE</div>
-    <div class="shape">SHAPE</div>
+
     
-    <footer>
-        <div class="footer">
-            FOOTER
-        </div>
-    </footer>
+    <div class='logo'>LOGO</div>
+    <div class='image'>IMAGE</div>
+    <div class='text'>TEXT</div>
+    
+
+    <!-- Footer Section -->
+    <footer>Footer Section</footer>
+</body>
+
+</html>
+
 </body>
 
 </html>
