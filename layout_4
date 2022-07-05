@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div { position: absolute; padding: 1em; border: 1px solid #000 }
+
+    #nw {
+         background: rgb(221, 173, 202);
+          top: 0;  
+           left: 0; 
+             right: 50%;
+              bottom: 50% 
+            }
+    #ne { 
+        background: rgb(193, 166, 125);
+         top: 0;  
+          left: 50%;
+           right: 0;  
+            bottom: 50% 
+        }
+    #sw { 
+        background: rgb(146, 146, 193);
+         top: 50%;
+          left: 0;
+             right: 50%;
+              bottom: 0
+            }
+    #se { 
+        background: rgb(127, 181, 127);
+         top: 50%; 
+         left: 50%; 
+         right: 0; 
+           bottom: 0} 
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#div1 {
+  background: #DDD;
+}
+
+#div2 {
+  background: #AAA;
+}
+
+#div3 {
+  background: #777;
+}
+
+#div4 {
+  background: #444;
+}
+    </style>
+</head>
+<body>
+
+<div id="div1"></div>
+<div id="div2"></div>
+<div id="div3"></div>
+<div id="div4"></div>
+
+
+<div id="nw">test</div>
+<div id="ne">test</div>
+<div id="sw">test</div>
+<div id="se">test</div>
+</body>
+</html>
