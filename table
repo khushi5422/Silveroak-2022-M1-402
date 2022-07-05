@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+
+<!-- <h2>Center a Table</h2>
+<p>To center a table, set left and right margin to auto:</p> -->
+
+<table class="center">
+        <tr>
+    <th>series </th>
+         <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>id</th>
+  </tr>
+  <tr>
+    <td>1</td>
+      <td>Khushi</td>
+    <td>Patel</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Pruthvi</td>
+    <td>patel</td>
+    <td>60</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Arav</td>
+    <td>Patel</td>
+    <td>70</td>
+  </tr>
+</table>
+
+</body>
+</html>
