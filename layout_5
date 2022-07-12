@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT-3</title>
+</head>
+<style>
+    .contianter1 {
+        display: flex;
+    }
+
+    .class {
+        background-color: rgb(42, 120, 165);
+        width: 500px;
+        height: 180px;
+        padding: 4px;
+        margin: 5px;
+
+    }
+    .contianter2{
+        display: flex;
+    }
+
+    .class {
+        background-color: brown;
+        width: 500px;
+        height: 180px;
+        padding: 4px;
+        margin: 5px;
+
+    }
+    .contianter3 {
+        display: flex;
+    }
+
+    .class {
+        background-color: brown;
+        width: 500px;
+        height: 180px;
+        padding: 4px;
+        margin: 5px;
+
+    }
+</style>
+
+<body>
+    <div class="contianter1">
+        <div class="class">1</div>
+        <div class="class">2</div>
+        <div class="class">3</div>
+    </div>
+
+    <div class="contianter2">
+        <div class="class">4</div>
+        <div class="class">5</div>
+        <div class="class">6</div>
+    </div>
+
+    
+    <div class="contianter3">
+        <div class="class">7</div>
+        <div class="class">8</div>
+        <div class="class">9</div>
+    </div>
+</body>
+
+</html>
