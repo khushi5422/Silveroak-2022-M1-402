@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2.2-flex-direction</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 50px;
+         padding: 30px;
+        font-family: verdana;
+        /* justify-items: baseline; */
+        
+      }
+
+      .main-container {
+        border: 10px solid #FF0000;
+        /* align-items: center; */
+        display:flex; 
+        
+         /* justify-content: center;  */
+       ;
+         
+      }
+
+      .item {
+        color: #ffffff;
+        font-size: 1rem;
+        padding: 0.75rem;
+        margin: 20px;
+        text-align: center;
+        
+        
+      }
+      .item-7>*:first-child {
+    align-self: stretch;
+      }
+
+      .item-1 {
+        background-color:#DDA0DD;
+      }
+
+      .item-2 {
+        background-color:#BF94E4;
+      }
+
+      .item-3 {
+        background-color:#734F96;
+      }
+
+      .item-4 {
+        background-color:#FBAED2;
+      }
+
+      .item-5 {
+        background-color:#EE82EE;
+      }
+      
+      .item-6 {
+        background-color:#ADE4CA;
+      }
+
+      .item-7 {
+        background-color:#A6D5AE;
+        /* height: 300px; */
+        align-self:flex-start;
+      }
+
+      .item-8 {
+        background-color:#8FBC8E;
+      }
+
+      .item-9 {
+        background-color: #64A466;
+      }
+      
+      .item-10 {
+        background-color:#2E8B56;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="main-container">
+      <div class="item item-1">kp-1</div>
+      <div class="item item-2">kp-2</div>
+      <div class="item item-3">kp-3</div>
+      <div class="item item-4">kp-4</div>
+      <div class="item item-5">kp-5</div>
+      <div class="item item-6">kp-6</div>
+      <div class="item item-7">kp-7</div>
+      <div class="item item-8">kp-8</div>
+      <div class="item item-9">kp-9</div>
+      <div class="item item-10">kp-10</div>
+    </div>
+    
+  </body>
+  
+</html>
