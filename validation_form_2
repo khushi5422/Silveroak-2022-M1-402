@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Day 4 | Form Tags.</title>
+		<title>| Form Tags</title>
 	</head>
 	<body>
 		<input type="text" autofocus placeholder="Enter First Name Here..." maxlength="10" /><hr/>
