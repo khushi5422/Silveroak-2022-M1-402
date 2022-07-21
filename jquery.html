@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+<title>jQuery Testing</title>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+   $(document).ready(function() {
+     $(".hidediv").click(function () {
+    
+    if ( $(".divdemo").is(':hidden')){
+     $(".divdemo").show(2000);
+     
+    }else{
+      $(".divdemo").hide(2000);
+    }
+    });
+  });
+  
+
+     $(document).ready(function() {
+     $(".menudiv").click(function () {
+      if ( $(".menudemo").is(':hidden')){
+     $(".menudemo").show(2000);
+      }else{
+     $(".menudemo").hide(2000);
+      }
+    });
+});
+
+    
+
+
+</script>
+<style>
+.divdemo{
+width:300px;
+height:300px;
+background-color:#4e7911;
+color:#fff;
+padding:100px;
+font-size:25px;
+}
+table {
+  border:1px solid black;
+  background-color:red;
+}
+th{
+    border:1px solid black;
+    background-color:blue;
+}
+td{
+    border:1px solid black;
+    background-color: rgb(121, 194, 72);
+}
+
+</style>
+</head>
+
+<body>
+<p><button class="hidediv">Hide-Show div</button>
+    
+<!-- <button class="showdiv">Show div</button> -->
+</p>    
+   <div class="divdemo">
+    <button class="menudiv">Menu</button>
+   <!-- <h2>Menu</h2> -->
+
+<table style="width:100%" class="menudemo">
+  <tr>
+    <th> Sr No. </th>
+    <th> Breakfast</th>
+    <th>Lunch </th>
+    <th>Dinner</th>
+    
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Tea/Cofee</td>
+    <td>Multi Cuisine</td>
+    <td>Buffet</td>
+  </tr>
+  
+</table>
+</div>
+</body>
+</html>
